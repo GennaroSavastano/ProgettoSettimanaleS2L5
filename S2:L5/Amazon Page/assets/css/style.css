@@ -1,0 +1,173 @@
+/* Your styles here */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* header*/
+
+header{
+    text-align: left;
+    
+}
+
+.logoWrapper{
+    background-color: #21303F;
+}
+
+#headerLogo{
+    width: 7em;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+
+#navbar{
+    background-color: #394659;
+    padding: 0.5em 1.5em;
+}
+
+nav ul li {
+    display: inline-block;
+   
+}
+
+nav ul li a{
+    color: #E8EBEC;
+    text-decoration: none;
+    padding-left: 0.5em;
+}
+
+/* main */
+main{
+    background-color: #E8EBEC;
+    padding: 2em 2em 0 2em;
+}
+
+.orange{
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+    background-color: #F56600;
+    margin-bottom: 2em;
+}
+
+.orange h3{
+    font-size: 1em;
+    padding: 0;
+
+}
+.porcelain{
+    color: #E8EBEC;
+    text-align: center;
+}
+
+#blackText{
+    padding: 0.5em 0.5em 0.5em 1em ;
+}
+
+#headerWrapper{
+    background-image: url(../images/bg-image.png);
+    height: 13em;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 2em;
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 0.7em;
+}
+
+#slider{
+    margin: 2em 0;
+    background-color: white;
+}
+
+h3{
+    color: black;
+    font-size: 1.4em;
+    font-weight: 200;
+    display: inline-block;
+    padding: 0 0.5em 0 0;
+}
+
+section a{
+    color: #006F73;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+
+.mini{
+    display: inline-block;
+    text-align: center;
+    margin: 0em 1em 1.5em 1em;
+    width: 22.5%;
+    height: 25em;
+    border-radius: 5%;
+}
+
+#prima{
+    background-image: url(../images/img_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#seconda{
+    background-image: url(../images/img_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#terza{
+    background-image: url(../images/img_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#quarta{
+    background-image: url(../images/img_4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bigImage{
+    text-align: center;
+    padding-bottom: 1.2em;
+    
+}
+
+.bigImage img{
+    width: 100%;
+    height: auto;
+}
+
+.footerLink{
+    background-color: #394659;
+    text-align: center;
+    color: #E8EBEC;
+    text-decoration-line: underline;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.logoWrapperFoot{
+    text-align: center;
+    background-color: #21303F;
+}
+
+#footerLogo{
+    width: 12em;
+    padding: 4em 0 4em 0;
+}
